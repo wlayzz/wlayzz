@@ -29,98 +29,68 @@
 
 #### Kiteworks (53 CVEs)
 
-Discovered as part of a hunter squad working on the Kiteworks bug bounty program on YesWeHack. Team members: [Supr4s](https://github.com/supr4s), [Icare](https://github.com/Icare1337), [truff](https://github.com/truff77).
+Discovered as part of a hunter squad working on the Kiteworks bug bounty program on YesWeHack. Team members: [Supr4s](https://github.com/supr4s), [Icare1337](https://github.com/Icare1337), [truff77](https://github.com/truff77).
 
 #### <img src="https://img.shields.io/badge/Critical-5-red?style=flat-square" alt="critical">
 
 **Core**
 
-- [**CVE-2026-102115**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-q76w-qv9j-q639) · Account takeover
-- [**CVE-2026-102147**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-xgh2-fgj6-w93r) · Account takeover
+- Account takeover: [**CVE-2026-102115**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-q76w-qv9j-q639) · [**CVE-2026-102147**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-xgh2-fgj6-w93r)
 
 **EPG**
 
-- [**CVE-2026-54154**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-5xhq-9wq3-rvj6) · Arbitrary code execution
-- [**CVE-2026-102095**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-f252-4w8q-g74g) · Access to internal network resources
-- [**CVE-2026-85066**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-rwpq-5xfv-54pv) · Account takeover
+- Arbitrary code execution: [**CVE-2026-54154**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-5xhq-9wq3-rvj6)
+- Access to internal network resources: [**CVE-2026-102095**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-f252-4w8q-g74g)
+- Account takeover: [**CVE-2026-85066**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-rwpq-5xfv-54pv)
 
 #### <img src="https://img.shields.io/badge/High-35-orange?style=flat-square" alt="high">
 
 **Core**
 
-- [**CVE-2026-85067**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-377c-mj94-f4q4) · Information disclosure
-- [**CVE-2026-102098**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-cqg3-857q-cqj6) · Information disclosure
-- [**CVE-2026-28349**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-r6v3-9qp8-mpg2) · Information disclosure
-- [**CVE-2026-102129**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-4gcf-w86v-34rp) · Privilege escalation
-- [**CVE-2026-102112**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-658c-86vw-g9hf) · Privilege escalation
-- [**CVE-2026-102126**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-ccfx-6hq4-fx4g) · Privilege escalation
-- [**CVE-2026-63486**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-cj2q-mggw-76v5) · Privilege escalation
-- [**CVE-2026-102113**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-gwj7-wxrr-28v5) · Privilege escalation
-- [**CVE-2026-102120**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-m968-434m-rgwp) · Privilege escalation
-- [**CVE-2026-102093**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-mq6c-p42h-75j5) · Privilege escalation
-- [**CVE-2026-95841**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-phpv-mw9m-r8vh) · Privilege escalation
-- [**CVE-2026-102132**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-qx8c-x3hv-c25g) · Privilege escalation
-- [**CVE-2026-77428**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-vm9w-h57c-m9pj) · Privilege escalation
-- [**CVE-2026-102117**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-5rhv-f48q-gq5v) · Arbitrary code execution
-- [**CVE-2026-102142**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-gmgg-7xhc-75f9) · Arbitrary code execution
-- [**CVE-2026-62158**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-h575-f4w3-c8pr) · Arbitrary code execution
-- [**CVE-2026-102114**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-p5q5-49j9-hx8w) · Arbitrary code execution
-- [**CVE-2026-102099**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-qj2g-2wfr-wg43) · Arbitrary code execution
-- [**CVE-2026-102101**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-x5hx-fgrp-prvf) · Arbitrary code execution
-- [**CVE-2026-102092**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-mhw9-vrqq-m434) · Cross-user script execution
-- [**CVE-2026-28347**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-pcg3-c3qc-p63m) · Cross-user script execution
-- [**CVE-2026-102100**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-vr65-9jwc-jgjx) · Cross-user script execution
-- [**CVE-2026-102123**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-vcx7-3759-27xm) · Unauthorized file modification
-- [**CVE-2026-62159**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-wwx9-vvxv-rrr3) · Account takeover
+- Information disclosure: [**CVE-2026-85067**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-377c-mj94-f4q4) · [**CVE-2026-102098**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-cqg3-857q-cqj6) · [**CVE-2026-28349**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-r6v3-9qp8-mpg2)
+- Privilege escalation: [**CVE-2026-102129**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-4gcf-w86v-34rp) · [**CVE-2026-102112**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-658c-86vw-g9hf) · [**CVE-2026-102126**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-ccfx-6hq4-fx4g) · [**CVE-2026-63486**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-cj2q-mggw-76v5) · [**CVE-2026-102113**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-gwj7-wxrr-28v5) · [**CVE-2026-102120**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-m968-434m-rgwp) · [**CVE-2026-102093**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-mq6c-p42h-75j5) · [**CVE-2026-95841**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-phpv-mw9m-r8vh) · [**CVE-2026-102132**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-qx8c-x3hv-c25g) · [**CVE-2026-77428**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-vm9w-h57c-m9pj)
+- Arbitrary code execution: [**CVE-2026-102117**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-5rhv-f48q-gq5v) · [**CVE-2026-102142**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-gmgg-7xhc-75f9) · [**CVE-2026-62158**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-h575-f4w3-c8pr) · [**CVE-2026-102114**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-p5q5-49j9-hx8w) · [**CVE-2026-102099**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-qj2g-2wfr-wg43) · [**CVE-2026-102101**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-x5hx-fgrp-prvf)
+- Cross-user script execution: [**CVE-2026-102092**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-mhw9-vrqq-m434) · [**CVE-2026-28347**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-pcg3-c3qc-p63m) · [**CVE-2026-102100**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-vr65-9jwc-jgjx)
+- Unauthorized file modification: [**CVE-2026-102123**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-vcx7-3759-27xm)
+- Account takeover: [**CVE-2026-62159**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-wwx9-vvxv-rrr3)
 
 **EPG**
 
-- [**CVE-2026-102143**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-3p9g-jh62-8f89) · Unauthorized file modification
-- [**CVE-2026-102119**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-3r3r-hp4c-pxmh) · Arbitrary code execution
-- [**CVE-2026-102097**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-465g-wpvm-8qmr) · Arbitrary code execution
-- [**CVE-2026-102131**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-62f6-c955-4fhq) · Arbitrary code execution
-- [**CVE-2026-102108**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-837h-99j2-hxjr) · Arbitrary code execution
-- [**CVE-2026-102130**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-m92m-q8cf-rcch) · Arbitrary code execution
-- [**CVE-2026-102089**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-p853-p65q-2vc8) · Arbitrary code execution
-- [**CVE-2026-102116**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-pf8p-p269-4mjv) · Arbitrary code execution
+- Unauthorized file modification: [**CVE-2026-102143**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-3p9g-jh62-8f89)
+- Arbitrary code execution: [**CVE-2026-102119**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-3r3r-hp4c-pxmh) · [**CVE-2026-102097**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-465g-wpvm-8qmr) · [**CVE-2026-102131**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-62f6-c955-4fhq) · [**CVE-2026-102108**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-837h-99j2-hxjr) · [**CVE-2026-102130**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-m92m-q8cf-rcch) · [**CVE-2026-102089**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-p853-p65q-2vc8) · [**CVE-2026-102116**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-pf8p-p269-4mjv)
 
 **SDF**
 
-- [**CVE-2026-24752**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-6798-vf3h-wcwr) · XSS
-- [**CVE-2026-24751**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-xp8m-wmmp-f947) · XSS
-- [**CVE-2026-102091**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-m8mj-m4fv-jmrh) · Access to internal network resources
+- XSS: [**CVE-2026-24752**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-6798-vf3h-wcwr) · [**CVE-2026-24751**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-xp8m-wmmp-f947)
+- Access to internal network resources: [**CVE-2026-102091**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-m8mj-m4fv-jmrh)
 
 #### <img src="https://img.shields.io/badge/Medium-11-yellow?style=flat-square" alt="medium">
 
 **Core**
 
-- [**CVE-2026-102133**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-53qp-jmrc-2g5j) · Arbitrary code execution
-- [**CVE-2026-102145**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-h97r-j99c-q8xc) · Access to internal network resources
-- [**CVE-2026-102141**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-m39v-w8fv-gf3m) · Privilege escalation
-- [**CVE-2026-102136**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-rpxx-jm93-w5j7) · Privilege escalation
-- [**CVE-2026-102124**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-q85p-q4v6-7w6f) · Security bypass
-- [**CVE-2026-102140**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-wfxj-p5jc-jqjw) · Security bypass
+- Arbitrary code execution: [**CVE-2026-102133**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-53qp-jmrc-2g5j)
+- Access to internal network resources: [**CVE-2026-102145**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-h97r-j99c-q8xc)
+- Privilege escalation: [**CVE-2026-102141**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-m39v-w8fv-gf3m) · [**CVE-2026-102136**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-rpxx-jm93-w5j7)
+- Security bypass: [**CVE-2026-102124**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-q85p-q4v6-7w6f) · [**CVE-2026-102140**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-wfxj-p5jc-jqjw)
 
 **EPG**
 
-- [**CVE-2026-102135**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-vmwr-r5xq-hp49) · Arbitrary code execution
+- Arbitrary code execution: [**CVE-2026-102135**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-vmwr-r5xq-hp49)
 
 **SDF**
 
-- [**CVE-2026-42243**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-6c8h-46v5-xcmw) · Information disclosure
-- [**CVE-2026-62244**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-c669-hm9h-cr6m) · Information disclosure
-- [**CVE-2026-62161**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-mf3v-4wrj-jjwc) · Information disclosure
-- [**CVE-2026-97372**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-q874-j4f7-j389) · Security bypass
+- Information disclosure: [**CVE-2026-42243**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-6c8h-46v5-xcmw) · [**CVE-2026-62244**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-c669-hm9h-cr6m) · [**CVE-2026-62161**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-mf3v-4wrj-jjwc)
+- Security bypass: [**CVE-2026-97372**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-q874-j4f7-j389)
 
 #### <img src="https://img.shields.io/badge/Low-2-green?style=flat-square" alt="low">
 
 **Core**
 
-- [**CVE-2026-102138**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-q9w9-c5hj-87jm) · Access to internal network resources
+- Access to internal network resources: [**CVE-2026-102138**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-q9w9-c5hj-87jm)
 
 **SDF**
 
-- [**CVE-2026-42242**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-f26q-22vc-8h92) · Unauthorized data modification
+- Unauthorized data modification: [**CVE-2026-42242**](https://github.com/kiteworks/security-advisories/security/advisories/GHSA-f26q-22vc-8h92)
 
 
 ### 🎙️ Featured
