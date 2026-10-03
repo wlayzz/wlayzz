@@ -29,7 +29,7 @@
 
 #### Kiteworks (53 CVEs)
 
-Discovered as part of a hunter squad working on the Kiteworks bug bounty program on YesWeHack. Team members: [Supr4s](https://github.com/supr4s), [Icare1337](https://github.com/Icare1337), [truff77](https://github.com/truff77).
+Discovered as part of a hunter squad working on the Kiteworks bug bounty program on YesWeHack. Team members: [Supr4s](https://github.com/supr4s), [Icare](https://github.com/Icare1337), [truff](https://github.com/truff77).
 
 #### <img src="https://img.shields.io/badge/Critical-5-red?style=flat-square" alt="critical">
 
