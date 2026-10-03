@@ -25,18 +25,43 @@
 
 ### Other Vendors
 
-| Vendor | Impact | CVE |
-|---|---|---|
-| Thales Suspicious | Remote Code Execution | [**CVE-2026-13014**](https://github.com/thalesgroup-cert/suspicious/security/advisories/GHSA-x85x-9mrm-wwvp) |
-| Mozilla PDF.js | JavaScript Execution | [**CVE-2026-16633**](https://github.com/mozilla/pdf.js/security/advisories/GHSA-hq66-cqwq-w95j) |
-| Open WebUI | Server-Side Request Forgery | [**CVE-2026-45331**](https://github.com/advisories/GHSA-4v7r-f4w8-8972) |
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">Vendor</th>
+      <th align="center">Impact</th>
+      <th align="center">CVE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Thales Suspicious</td>
+      <td align="center">Remote Code Execution</td>
+      <td align="center"><a href="https://github.com/thalesgroup-cert/suspicious/security/advisories/GHSA-x85x-9mrm-wwvp"><b>CVE-2026-13014</b></a></td>
+    </tr>
+    <tr>
+      <td align="center">Mozilla PDF.js</td>
+      <td align="center">JavaScript Execution</td>
+      <td align="center"><a href="https://github.com/mozilla/pdf.js/security/advisories/GHSA-hq66-cqwq-w95j"><b>CVE-2026-16633</b></a></td>
+    </tr>
+    <tr>
+      <td align="center">Open WebUI</td>
+      <td align="center">Server-Side Request Forgery</td>
+      <td align="center"><a href="https://github.com/advisories/GHSA-4v7r-f4w8-8972"><b>CVE-2026-45331</b></a></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
 
 ### Kiteworks · 53 CVEs
 
 > Discovered as part of a hunter squad working on the Kiteworks bug bounty program on YesWeHack.
 > Team members: [Supr4s](https://github.com/supr4s) · [Icare](https://github.com/Icare1337) · [truff](https://github.com/truff77)
 
-<details open>
+<details>
 <summary><img src="https://img.shields.io/badge/Critical-5-red?style=flat-square" alt="critical"></summary>
 
 <br>
